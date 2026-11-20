@@ -24,3 +24,9 @@ Every feature can be toggled individually in-game via **Mod Menu → Vanilla Set
 * **Minecraft:** 26.3
 * **Mod Loader:** Fabric
 * **Dependencies:** Fabric API, Sodium, ModMenu
+
+---
+
+### 📷 Screenshot
+<img src="https://cdn.modrinth.com/data/8wBaM6ig/images/303cd6035660bd48a3ab9ba215b1ef9b508b3abd.png" alt="" style="display: inline-block; height: 22.25rem; width: auto; vertical-align: text-bottom; margin: 0 0.25rem;" />
+<img src="https://cdn.modrinth.com/data/8wBaM6ig/images/c9082093077cd16292730afd66f2b2fbaaeb5cd1.png" alt="" style="display: inline-block; height: 38.25rem; width: auto; vertical-align: text-bottom; margin: 0 0.25rem;" />
