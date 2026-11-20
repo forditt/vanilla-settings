@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillasettings",
+  "version": "${version}",
+  "name": "Vanilla Settings",
+  "description": "Hides mod traces (F3, branding, Mod Menu buttons, built-in packs) and restores vanilla video settings.",
+  "authors": [
+    "forditt"
+  ],
+  "contact": {
+    "sources": "https://github.com/forditt/vanilla-settings"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "icon": "assets/vanillasettings/icon.png",
+  "entrypoints": {
+    "client": [
+      "com.forditt.vanillasettings.VanillaVideoSettingsMod"
+    ],
+    "modmenu": [
+      "com.forditt.vanillasettings.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "vanillasettings.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~26.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

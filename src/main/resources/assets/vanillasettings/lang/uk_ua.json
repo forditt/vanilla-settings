@@ -1,0 +1,18 @@
+{
+  "modmenu.nameTranslation.vanillasettings": "Vanilla Settings",
+  "modmenu.descriptionTranslation.vanillasettings": "Приховує сліди модів (F3, брендинг, кнопки Mod Menu, вбудовані паки) та повертає ванільні налаштування графіки.",
+  "vanillasettings.config.title": "Vanilla Settings",
+  "vanillasettings.config.vanilla_video_settings": "Ванільні налаштування графіки",
+  "vanillasettings.config.vanilla_debug_screen": "Ванільний F3",
+  "vanillasettings.config.hide_modmenu_buttons": "Приховати кнопки Mod Menu",
+  "vanillasettings.config.vanilla_branding": "Приховати модифіковано та *",
+  "vanillasettings.config.hide_builtin_pack_label": "Приховати «Вбудований» у паках",
+  "vanillasettings.config.keybinds": "Вибір біндів...",
+  "vanillasettings.keybinds.title": "Вибір біндів",
+  "vanillasettings.keybinds.search_narration": "Пошук бінда...",
+  "vanillasettings.keybinds.search_hint": "Пошук за назвою або категорією...",
+  "vanillasettings.keybinds.show_all": "Показати всі",
+  "vanillasettings.keybinds.stats": "Активно: ",
+  "vanillasettings.keybinds.disable": "Вимкнути",
+  "vanillasettings.keybinds.show": "Показати"
+}

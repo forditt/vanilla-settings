@@ -1,0 +1,64 @@
+plugins {
+    id("net.fabricmc.fabric-loom") version "${loom_version}"
+    id("maven-publish")
+}
+
+def getVersionString() {
+    def builder = new StringBuilder()
+    builder.append(project.mod_version)
+    builder.append("-mc").append(project.minecraft_version)
+    return builder.toString()
+}
+
+version = getVersionString()
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "Terraformers"
+        url = "https://maven.terraformersmc.com/"
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    // Mod Menu API
+    compileOnly "com.terraformersmc:modmenu:18.0.0-alpha.8"
+
+    // Sodium із папки libs
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+processResources {
+    filesMatching("fabric.mod.json") {
+        expand(["version": mod_version])
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+}
+
+java {
+    withSourcesJar()
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+}

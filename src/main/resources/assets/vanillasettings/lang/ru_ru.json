@@ -1,0 +1,18 @@
+{
+  "modmenu.nameTranslation.vanillasettings": "Vanilla Settings",
+  "modmenu.descriptionTranslation.vanillasettings": "Скрывает следы модов (F3, брендинг, кнопки Mod Menu, встроенные наборы) и возвращает ванильные настройки графики.",
+  "vanillasettings.config.title": "Vanilla Settings",
+  "vanillasettings.config.vanilla_video_settings": "Ванильные настройки графики",
+  "vanillasettings.config.vanilla_debug_screen": "Ванильный F3",
+  "vanillasettings.config.hide_modmenu_buttons": "Скрыть кнопки Mod Menu",
+  "vanillasettings.config.vanilla_branding": "Скрыть модифицировано и *",
+  "vanillasettings.config.hide_builtin_pack_label": "Скрыть «Встроенный» в наборах",
+  "vanillasettings.config.keybinds": "Выбор биндов...",
+  "vanillasettings.keybinds.title": "Выбор биндов",
+  "vanillasettings.keybinds.search_narration": "Поиск бинда...",
+  "vanillasettings.keybinds.search_hint": "Поиск по названию или категории...",
+  "vanillasettings.keybinds.show_all": "Показать все",
+  "vanillasettings.keybinds.stats": "Активно: ",
+  "vanillasettings.keybinds.disable": "Отключить",
+  "vanillasettings.keybinds.show": "Показать"
+}

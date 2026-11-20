@@ -1,0 +1,18 @@
+{
+  "modmenu.nameTranslation.vanillasettings": "Vanilla Settings",
+  "modmenu.descriptionTranslation.vanillasettings": "Hides mod traces (F3, branding, Mod Menu buttons, built-in packs) and restores vanilla video settings.",
+  "vanillasettings.config.title": "Vanilla Settings",
+  "vanillasettings.config.vanilla_video_settings": "Vanilla Video Settings",
+  "vanillasettings.config.vanilla_debug_screen": "Vanilla F3 Screen",
+  "vanillasettings.config.hide_modmenu_buttons": "Hide Mod Menu Buttons",
+  "vanillasettings.config.vanilla_branding": "Hide \"modded\" and *",
+  "vanillasettings.config.hide_builtin_pack_label": "Hide \"Built-in\" in Resource Packs",
+  "vanillasettings.config.keybinds": "Select Keybinds...",
+  "vanillasettings.keybinds.title": "Select Keybinds",
+  "vanillasettings.keybinds.search_narration": "Search keybind...",
+  "vanillasettings.keybinds.search_hint": "Search by name or category...",
+  "vanillasettings.keybinds.show_all": "Show All",
+  "vanillasettings.keybinds.stats": "Active: ",
+  "vanillasettings.keybinds.disable": "Disable",
+  "vanillasettings.keybinds.show": "Show"
+}
